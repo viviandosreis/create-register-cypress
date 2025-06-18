@@ -1,0 +1,17 @@
+{
+  "name": "create-register-test-cypress",
+  "version": "1.0.0",
+  "description": "Cypress tests for client registration",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": ["cypress", "testing", "automation"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+} 

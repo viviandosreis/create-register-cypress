@@ -22,8 +22,8 @@ import './commands'
 // Add custom commands for better test reliability
 Cypress.Commands.add('fillRegistrationForm', (userData = {}) => {
   const defaultData = {
-    nome: 'João Silva',
-    email: 'joao.silva@example.com',
+    nome: 'Maria Silva',
+    email: 'maria.silva@example.com',
     telefone: '11987654321',
     endereco: 'Rua das Flores, 123',
     cidade: 'São Paulo',
@@ -31,7 +31,7 @@ Cypress.Commands.add('fillRegistrationForm', (userData = {}) => {
     cep: '01234-567',
     cpf: '12345678901',
     dataNascimento: '1990-01-01',
-    genero: 'Masculino'
+    genero: 'Feminino'
   }
 
   const data = { ...defaultData, ...userData }
